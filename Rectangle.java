@@ -1,5 +1,5 @@
-public class Rectangle
-{
+public class Rectangle{
+
     private int width;
     private int height;
     
@@ -31,4 +31,5 @@ public class Rectangle
     public String toString(){
         return "Rectangle with width: " + width + " and height: " + height;
     }
+
 }
