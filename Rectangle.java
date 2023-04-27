@@ -3,29 +3,32 @@ public class Rectangle
     private int width;
     private int height;
     
-    public Rectangle(int rectWidth, int rectHeight)
-    {
-        width = rectWidth;
-        height = rectHeight;
+    public Rectangle(int width, int height){
+        this.width = width;
+        this.height = height;
     }
     
-    public int getArea()
-    {
+    public int getArea(){
         return width * height;
     }
     
-    public int getHeight()
-    {
+    public int getHeight(){
         return height;
     }
     
-    public int getWidth()
-    {
+    public int getWidth(){
         return width;
     }
+
+    public void setHeight(int height){
+        this.height = height;
+    }
+
+    public void setWidth(int width){
+        this.width = width;
+    }
    
-    public String toString()
-    {
+    public String toString(){
         return "Rectangle with width: " + width + " and height: " + height;
     }
 }
